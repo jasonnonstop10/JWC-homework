@@ -24,7 +24,7 @@ function Gg() {
     list[4] = document.getElementById('numbercard').value;
   
     if (list[0] === undefined) {
-      alert("Please check Itemchoice")
+      alert("Please check Item choice")
       wait(2000);
     } else if (list[2] === undefined) {
       alert("Please check your Cryptocurrency type");
@@ -44,4 +44,3 @@ function Gg() {
     }
   
   }
-  $('.alert').alert()
