@@ -12,7 +12,7 @@ function Thaksin(){
     alert("You choose Thaicom of Thaksin Shinawatra")
     list[0]="You choose Thaicom of Thaksin Shinawatra";
 }
-function Continue() {
+function Gg() {
     if (document.getElementById('g1').checked) {
     list[2] = document.getElementById('g1').value;
   } else if (document.getElementById('g2').checked) {
@@ -24,23 +24,24 @@ function Continue() {
     list[4] = document.getElementById('numbercard').value;
   
     if (list[0] === undefined) {
-      alert("Please check Poster choice")
+      alert("Please check Itemchoice")
       wait(2000);
     } else if (list[2] === undefined) {
-      alert("Please check your card type");
+      alert("Please check your Cryptocurrency type");
       wait(2000);
     } else if (list[3] === "") {
-      alert("Please check name of card");
+      alert("Please check Name of account");
       wait(2000);
     } else if (list[4] === ""){
-      alert("Please check number of card");
+      alert("Please check Pubile key number");
       wait(2000);
     }
   
     if (confirm("Are you want to buy?")===true) {
-      document.getElementById("c").innerHTML = list[0]+"<br>"+" by "
-            +list[2]+" Name of Card is : "+list[3]
-            +" ,Number of Card is : "+list[4];
+      document.getElementById("c").innerHTML ="Buy "+list[0]+"<br>"+" by "
+            +list[2]+" Name of account is : "+list[3]
+            +" ,Pubile key number is: "+list[4];
     }
   
   }
+  $('.alert').alert()

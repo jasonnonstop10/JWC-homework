@@ -11,7 +11,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong><p id="c" style="font-size: 18"></p></strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"> 
+        <span aria-hidden="true">&times;</span>
+        </button> 
+      </div>
         <div class="card w-auto p-3  align-content-center justify-content-center mb-3 mr-5 ml-5 ">
           <div class="card-body">
                 <h5 class="card-title">Item for revolution!!!</h5>
@@ -29,7 +34,7 @@
                                    <div class="form-row">
                                    <div class="col-sm-3">
                                    <div class="form-check-inline">
-                                        <input class="form-check-input" type="radio" name="gg" id="g1" value="option1"/>
+                                        <input class="form-check-input" type="radio" name="gg" id="g1" value="Bitcoin"/>
                                         <label class="form-check-label" for="g1">
                                                 Bitcoin
                                         </label>
@@ -37,7 +42,7 @@
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-check-inline">
-                                        <input class="form-check-input " type="radio" name="gg" id="g2" value="option2"/>
+                                        <input class="form-check-input " type="radio" name="gg" id="g2" value="Ethereum"/>
                                         <label class="form-check-label" for="g2">
                                                 Ethereum
                                         </label>
@@ -45,7 +50,7 @@
                                 </div>
                                <div class="col-sm-3">
                                     <div class="form-check-inline">
-                                        <input class="form-check-input" type="radio" name="gg" id="g3" value="option3"/>
+                                        <input class="form-check-input" type="radio" name="gg" id="g3" value="Litecoin"/>
                                         <label class="form-check-label" for="g3">
                                             Litecoin
                                         </label>
@@ -60,8 +65,7 @@
                                                 <label for="example">Pubile key number</label>
                                                 <input type="text" class="form-control" id="numbercard" placeholder="Enter Pubile key number">
                                                </div>
-                                               <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="gg()">Submit</button>
-                                               <strong><p id="c" style="font-size: 18"></p></strong>
+                                               <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="Gg()">Submit</button>
                           </div>
                         </div>
                         </div>
